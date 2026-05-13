@@ -4,6 +4,7 @@ body {
     color: #222;
 }
 
+
 .container {
     width: 600px;
     margin: 48px auto;
@@ -28,11 +29,17 @@ li {
   padding: 12px;
   border-radius: 8px;
 }
-a {
-    color: #2d3748;
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: rgb(185, 207, 219,0.3);
+  color: black;
   text-decoration: none;
-  font-weight: bold;
+  transition: background 0.2s;
 }
-a:hover {
-  text-decoration: underline;
+
+.button:hover {
+  text-decoration: none;
+  background: #f8dbb0;
 }
